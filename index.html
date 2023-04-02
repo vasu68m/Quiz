@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="box">
+        <h2 id="queBox">1.dummy question</h2>
+        <!-- id & for same, so label input se link hojae -->
+        <!-- input me name same rakhna h, taki ek hi select ho -->
+        <div class="row">
+            <input id="op1" type="radio" value="a" name="option" class="options">
+            <label for="op1">option 1</label>
+        </div>
+        <div class="row">
+            <input id="op2" type="radio" value="b" name="option" class="options">
+            <label for="op2">option 1</label>
+        </div>
+        <div class="row">
+            <input id="op3" type="radio" value="c" name="option" class="options">
+            <label for="op3">option 1</label>
+        </div>
+        <div class="row">
+            <input id="op4" type="radio" value="d" name="option" class="options">
+            <label for="op4">option 1</label>
+        </div>
+        <button onclick="submitQuiz()" class="btn">
+            submit
+        </button>
+        </div>
+    </div>
+
+    
+ <script src="index.js"></script>   
+</body>
+</html>
